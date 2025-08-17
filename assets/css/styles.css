@@ -1,0 +1,51 @@
+/* Estilos generales para home.html */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2e4ff;
+    padding: 20px;
+    color: #222;
+    text-align: center;
+    width: 75%;
+    max-width: 500px;
+    margin: 30px auto;
+    border: 1px solid white;
+}
+
+h1, h2, h3 {
+    color: #003366;
+    margin-top: 0;
+}
+
+a {
+    color: #2994ff;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 8px 24px;
+    background-color: #003366;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.profile-image{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.description {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul{
+    text-align: left;
+}
